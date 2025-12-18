@@ -72,3 +72,6 @@ Current Focus: *Architecture and security design are currently prioritized befor
 
 ##  Project Vision
 AEGIS aims to bridge the gap between digital privacy and real-world safety by combining secure data storage with automated disaster response in a single unified ecosystem.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
