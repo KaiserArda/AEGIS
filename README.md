@@ -17,6 +17,42 @@ The system is designed to protect sensitive personal data while providing automa
     * **Intrusion Detection:** Captures a front-camera image after multiple failed attempts (with explicit user consent).
     * **Alert System:** Sends intrusion reports securely to a user-defined email address.
 
+##  Architecture Overview
+```
+[ User Interface ]
+        |
+        v
+[ Security Layer ]
+  ├─ Real Vault (Encrypted)
+  ├─ Fake Vault (Decoy)
+  ├─ Intrusion Detection (Camera)
+  └─ Alert System (Email / Local)
+        |
+        v
+[ Productivity Layer ]
+  ├─ Secure Notes
+  ├─ PDF Viewer / Converter
+  └─ Calendar & Reminders
+        |
+        v
+[ Local Encrypted Storage ]
+        |
+        +───────────────+
+        |               |
+        v               v
+[ Offline Mode ]   [ Optional VPN Layer ]
+        |
+        v
+[ Hardware Integration Layer ]
+  ├─ Sensor Device (Vibration / Motion / Frequency)
+  ├─ Local Connectivity (BLE / Secure Channel)
+  ├─ Disaster Detection Engine
+  └─ Emergency Response System
+       ├─ Device Lock
+       ├─ Lock-Screen Medical Info
+       └─ Trusted Contact Alerts
+```
+
 ### Productivity
 * PDF viewing and conversion capabilities.
 * Structured note generation from plain text.
